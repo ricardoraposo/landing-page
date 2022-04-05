@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ul {
+	display: flex;
+  list-style-type: none;
+	gap: 36px;
+
+}
+
+.header{
+	background-color: #1f2937;
+	padding: 24px 128px 24px 128px;
+	margin: 0 48px;
+  display: flex;
+	justify-content: space-between;
+}
+
+.header-logo{
+	font-size: 24px;
+  color: #f9faf8;
+	font-weight: 900;
+}
+.header-links{
+	font-size: 18px;
+	color: #e5e7eb;
+}
